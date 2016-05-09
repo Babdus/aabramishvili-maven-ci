@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21971380-ec75-4e70-a05a-a4fbdf61ea26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ToKillA.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/babdus.iml" afterPath="$PROJECT_DIR$/babdus.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" />
     </list>
     <ignored path="babdus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,15 +40,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ToKillA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ToKillA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UnitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +99,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ToKillA.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitTest.java" />
       </list>
     </option>
@@ -228,7 +241,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.UnitTest.is_two_plus_two_four">
+  <component name="RunManager">
     <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
@@ -273,6 +286,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UnitTest" />
       <option name="METHOD_NAME" value="is_two_plus_two_four" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitTest.to_kill_a_mockingbird" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="babdus" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="METHOD_NAME" value="to_kill_a_mockingbird" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -520,16 +554,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTest.is_two_plus_two_four" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTest.to_kill_a_mockingbird" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTest.is_two_plus_two_four" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTest.to_kill_a_mockingbird" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTest.is_two_plus_two_four" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -553,11 +589,20 @@
     <history-entry file="Test - 2016.05.09 at 22h 32m 53s.xml">
       <configuration name="Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnitTest - 2016.05.09 at 22h 48m 48s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest - 2016.05.09 at 22h 49m 41s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UnitTest_is_two_plus_two_four - 2016.05.09 at 22h 35m 10s.xml">
       <configuration name="UnitTest.is_two_plus_two_four" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitTest_is_two_plus_two_four - 2016.05.09 at 22h 35m 23s.xml">
       <configuration name="UnitTest.is_two_plus_two_four" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_to_kill_a_mockingbird - 2016.05.09 at 22h 49m 09s.xml">
+      <configuration name="UnitTest.to_kill_a_mockingbird" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -629,14 +674,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ToKillA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
